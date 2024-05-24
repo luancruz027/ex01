@@ -109,5 +109,47 @@ footer {
     margin: auto;
 }
 
+@media only screen and (max-width: 600px) {
+    header {
+        flex-direction: column; /* Ajuste para layout em coluna */
+        align-items: flex-start;
+    }
 
+    nav ul {
+        flex-direction: column;
+        padding: 0;
+    }
 
+    nav ul li {
+        margin: 8px 0; /* Espaçamento vertical para itens do menu */
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .container img {
+        max-width: 100%; /* Imagens se ajustam à largura da tela */
+    }
+
+    .h2-2 {
+        margin-left: 10px; /* Ajuste do espaçamento */
+    }
+
+    .botao {
+        width: 100%; /* Botões se ajustam à largura disponível */
+    }
+
+    section {
+        flex-direction: column;
+    }
+
+    section ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section ul li {
+        margin: 8px 0; /* Espaçamento vertical para itens da lista */
+    }
+}
